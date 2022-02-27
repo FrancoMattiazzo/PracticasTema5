@@ -31,6 +31,11 @@ namespace Practica_5_1_entornos_de_desarrollo
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     class Alumno
