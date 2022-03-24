@@ -64,6 +64,7 @@
             this.listaAlumnos.ReadOnly = true;
             this.listaAlumnos.Size = new System.Drawing.Size(544, 195);
             this.listaAlumnos.TabIndex = 3;
+            this.listaAlumnos.TextChanged += new System.EventHandler(this.listaAlumnos_TextChanged);
             // 
             // label1
             // 
